@@ -1,0 +1,19 @@
+{
+    "all": true,
+    "extension": [".ts"],
+    "include": ["src/**"],
+    "exclude": ["src/**/*.d.ts", "src/**/*.spec.ts"],
+    "reporter": ["text", "html", "json-summary"],
+    "excludeNodeModules": true,
+    "check-coverage": true,
+    "branches": 0,
+    "lines": 0,
+    "functions": 0,
+    "statements": 0,
+    "watermarks": {
+        "lines": [60, 80],
+        "functions": [60, 80],
+        "branches": [60, 80],
+        "statements": [60, 80]
+    }
+}

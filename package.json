@@ -1,0 +1,39 @@
+{
+    "name": "@wbdt/dns-cache",
+    "version": "1.0.0",
+    "description": "Node.js DNS cache patch",
+    "main": "src/index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha",
+        "cov": "nyc npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wbdt/dns-cache.git"
+    },
+    "author": "mmzp <mmzp@qq.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wbdt/dns-cache/issues"
+    },
+    "homepage": "https://github.com/wbdt/dns-cache#readme",
+    "dependencies": {
+        "debug": "^4.3.4",
+        "lru-cache": "^7.10.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.16.0",
+        "mocha": "^9.2.2",
+        "nyc": "^15.1.0"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.com/",
+        "access": "public"
+    }
+}
